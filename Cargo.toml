@@ -1,0 +1,16 @@
+[package]
+name = "wallet_bips"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+bip32 = { version = "0.5", features = []}
+bip39 = { version = "2.2", features = ["rand", "unicode-normalization"] }
+eyre = "0.6.12"
+thiserror = "2.0.17"
+sha2 = "0.10"
+ripemd = "0.1"
+bs58 = "0.5"
+
+[dev-dependencies]
+rstest = "0.26"
