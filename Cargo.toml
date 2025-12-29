@@ -2,6 +2,8 @@
 name = "wallet_bips"
 version = "0.1.0"
 edition = "2024"
+description = "Tiny library to easily work with HD wallets"
+license = "MIT OR Apache-2.0"
 
 [dependencies]
 bip32 = { version = "0.5", features = []}
