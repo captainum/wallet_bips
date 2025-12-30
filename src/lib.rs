@@ -1,10 +1,12 @@
 #![allow(dead_code)]
 #![warn(clippy::pedantic)]
 
-mod errors;
-mod hd_wallet;
+pub mod errors;
+pub mod hd_wallet;
+
+pub mod mnemonic;
+
 mod hex;
-mod mnemonic;
 
 use crate::errors::WalletBipError;
 
